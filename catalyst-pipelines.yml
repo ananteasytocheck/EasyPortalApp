@@ -1,0 +1,39 @@
+version: 1
+runners:
+  Machine:
+    config-id: 2
+images:
+  DeployMachine:
+    image: Helloimage
+    registry: https://hub.docker.com/
+    auth:
+      username: ananteasytocheck
+      password: Anant@123456123
+jobs:
+  Deploy_Client_Functions:
+    steps:
+      - apt-get update
+      - apt-get -y install openjdk-17-jdk curl
+      - curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+      - apt-get install -y nodejs
+      - apt-get update && \
+      - apt-get install -y software-properties-common wget curl && \
+      - add-apt-repository ppa:deadsnakes/ppa && \
+      - apt-get update && \
+      - apt-get install -y python3.9 python3.9-distutils && \
+      - wget https://bootstrap.pypa.io/get-pip.py && \
+      - python3.9 get-pip.py && \
+      - rm get-pip.py
+      - npm i -g zcatalyst-cli
+      - catalyst -v
+      - cd functions/client
+      - npm install
+      - cd ../..
+      - >-
+        catalyst deploy --project Project-Rainfall --org 902772821 --token
+        m_1004.7218d1d41df466b789cbe2921df61983.1438b8ecf644cccb6158c74329348292
+stages:
+  - name: build
+    image: DeployMachine
+    jobs:
+      - Deploy_Client_Functions
