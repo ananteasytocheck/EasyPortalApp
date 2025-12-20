@@ -4,7 +4,7 @@ runners:
     config-id: 2
 images:
   DeployMachine:
-    image: Helloimage
+    image: helloimage
     registry: https://hub.docker.com/
     auth:
       username: ananteasytocheck
