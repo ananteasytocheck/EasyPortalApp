@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "targets": [
+      "project_rainfall_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "easyportal",
+    "plugin": "zcatalyst-cli-plugin-react"
+  }
+}
