@@ -25,8 +25,12 @@ jobs:
       - rm get-pip.py
       - npm i -g zcatalyst-cli
       - catalyst -v
-      - cd functions/HelloEasy
+      - cd esy
       - npm install
+      - npm install zcatalyst-cli-plugin-react
+      - cd functions/HelloEasy
+      - npm install 
+      - npm install zcatalyst-cli-plugin-react
       - cd ../..
       - catalyst deploy --project 33398000000011049 --org 902772821 --token
         m_1004.3c400f84d95593e00fb67f896c1e8c61.2b157b785e8793708c974dee19d883c5
