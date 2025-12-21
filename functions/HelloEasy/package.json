@@ -1,9 +1,0 @@
-{
-	"name": "helloeasy",
-	"version": "1.0.0",
-	"main": "index.js",
-	"author": "anant@easytocheck.com",
-	"dependencies": {
-		"zcatalyst-sdk-node": "latest"
-	}
-}
