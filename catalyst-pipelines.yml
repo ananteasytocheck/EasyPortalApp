@@ -25,7 +25,7 @@ jobs:
       - rm get-pip.py
       - npm i -g zcatalyst-cli
       - catalyst -v
-      - cd functions/HelloEasy
+      - cd catalyst/functions/HelloEasy
       - npm install
       - cd ../..
       - catalyst deploy --project 33398000000011049 --org 902772821 --token
