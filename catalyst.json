@@ -1,7 +1,7 @@
 {
   "functions": {
     "targets": [
-      "helloeasy"
+      "HelloEasy"
     ],
     "ignore": [],
     "source": "functions"
