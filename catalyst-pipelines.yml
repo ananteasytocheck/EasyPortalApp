@@ -5,7 +5,6 @@ runners:
 images:
   DeployMachine:
     image: helloimage
-    registry: https://hub.docker.com/
     auth:
       username: ananteasytocheck
       password: Anant@123456123
