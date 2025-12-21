@@ -28,6 +28,7 @@ jobs:
       - cd esy
       - npm install
       - npm install zcatalyst-cli-plugin-react
+      - cd ../..
       - cd functions/HelloEasy
       - npm install 
       - npm install zcatalyst-cli-plugin-react
