@@ -7,7 +7,7 @@
     "source": "functions"
   },
   "client": {
-    "source": "catalyst/esy",
+    "source": "esy",
     "plugin": "zcatalyst-cli-plugin-react"
   }
 }
