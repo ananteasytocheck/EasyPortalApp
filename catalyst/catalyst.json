@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "targets": [
+      "HelloEasy"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "catalyst/esy",
+    "plugin": "zcatalyst-cli-plugin-react"
+  }
+}
