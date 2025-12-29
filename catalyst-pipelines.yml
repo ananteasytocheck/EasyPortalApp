@@ -2,12 +2,12 @@ version: 1
 runners:
   Machine:
     config-id: 2
-# images:
-#   DeployMachine:
-#     image: ubuntu
-#     auth:
-#       username: ananteasytocheck
-#       password: Anant@123456123
+images:
+  DeployMachine:
+    image: ubuntu
+    auth:
+      username: ananteasytocheck
+      password: Anant@123456123
 jobs:
   Deploy_Client_Functions:
     steps:
