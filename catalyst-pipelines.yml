@@ -33,7 +33,7 @@ jobs:
       - npm install zcatalyst-cli-plugin-react
       - cd ../..
       - catalyst deploy --project 33398000000011049 --org 902772821 --token
-        m_1004.3c400f84d95593e00fb67f896c1e8c61.2b157b785e8793708c974dee19d883c5
+        m_1004.b2585a5de65f22c76bf7a1b4bfac2a4c.7d34ebed73c4dc80b50668138081738c
 stages:
   - name: build
     image: DeployMachine
